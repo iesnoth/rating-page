@@ -1,0 +1,94 @@
+/* #text text is left-oriented */
+
+body{
+    background:hsl(216, 12%, 8%);
+}
+
+.text{
+    background:hsl(213, 19%, 18%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+h2{
+    color:white;
+    font-weight: 700;
+}
+
+p{
+    color:hsl(216, 12%, 54%);
+    font-weight: 400;
+    font-size: 15 px;
+}
+
+#star{
+    background:hsl(214, 20%, 23%);
+    padding:15px;
+    border-radius: 50%;
+}
+
+/* buttons are grey circles, centered in body */
+
+
+/*SUBMIT LINK CODE As of 5/7/22, this is not centered properly*/
+#submit{
+    width: 1000px;
+    border-radius: 80px;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    position: absolute;
+    bottom:1%;
+    transform: translate(-50%, -50%);
+
+}
+  /* unvisited link*/
+#submit:link {
+    background-color:hsl(25, 97%, 53%);
+    color:white;
+    text-decoration: none;
+  }
+
+  
+/*visited link*/
+#submit:visited {
+    background-color:hsl(25, 97%, 53%);
+    color:white;
+    text-decoration: none;
+  } 
+
+  /*mouse over link*/
+#submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+    text-decoration: none;
+}
+
+#submit.active{
+    text-decoration: none;
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    /* unvisited link
+a:link {
+    color:rgb(228, 227, 205)
+  }
+  
+  /*visited link*/
+  /* a:visited {
+    color:rgb(177, 34, 5)
+  } */
+  
+  /*mouse over link*/
+  /* a:hover {
+    color:rgb(142, 134, 89)
+  } */
