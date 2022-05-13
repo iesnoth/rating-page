@@ -57,18 +57,23 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   I googled a lot today, including the aforementioned svg questions, how to make circles, and how to use google fonts in CSS.
   Got stuck on how to center the submit icon in the #text. Also, it's very hard for me to type 'submit' in one go apparently.
 
-
+5/12/22
+  Finally figured out the submit button by messing with margins and changing the size of the #text div. Not sure if it fixed it for mobile, but it looks good on desktop, so yes!
+  I've decided to figure out all the css issues before moving on to programming the buttons.
+  I copy-pasted some base code on a different function into the js, to see if I can reverse engineer/coopt it to work with the buttons.
+  I need to figure out how to store the integer data from when the button is pressed to carry over to the thank you html page. T.T
+  I don't know what I'm doing.
 
 ### Built with
 
 - VSCode
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
 5/7 I figured out on my own how to change the links' colors based on whether they'd been visited or not. <3
 
+5/13 I learned a little about position and how to experiment with css in the browser.
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

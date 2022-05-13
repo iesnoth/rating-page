@@ -6,12 +6,34 @@ body{
 
 .text{
     background:hsl(213, 19%, 18%);
+    height: 450px;
+    max-width:600px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 25px;
     padding: 30px;
+}
+
+#rate-buttons{
+white-space:pre;
+}
+
+/* Number font is different for some reason */
+button{
+  background:hsl(214, 20%, 23%);
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50%;
+  border:none;
+  color:hsl(216, 12%, 54%);
+  font-weight: 400;
+  font-size: 15 px;
+  margin-left: 3%;
+  margin-right: 2%;
 }
 
 h2{
@@ -36,14 +58,14 @@ p{
 
 /*SUBMIT LINK CODE As of 5/7/22, this is not centered properly*/
 #submit{
-    width: 1000px;
+    width: 600px;
     border-radius: 80px;
     text-align: center;
     padding-top:20px;
     padding-bottom:20px;
-    position: absolute;
-    bottom:1%;
-    transform: translate(-50%, -50%);
+    position: inherit;
+    bottom:5%;
+    
 
 }
   /* unvisited link*/
