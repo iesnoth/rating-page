@@ -68,6 +68,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   Gave all the buttons ids to hopefully fix the sizing problem (5 was the right size, but they were being squished as it went to one). Hopefully this will also give me more control on each individual button.
   Finished the placement of the buttons using display:flex and justify-content. It still looks a bit wider than the original, but the text is all the right place, so I don't know what else to do about that.
   I fixed all the numbers so they light up when hovered/clicked.
+  I realized the #text background had a gradient, so I fixed that up. P sure there's a color missing from the style guide.
 
 ### Built with
 
@@ -81,8 +82,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 5/13 I learned a little about position and how to experiment with css in the browser.
 
 5/15 Unlike with links, you can change the color of clicked buttons with the :focus state.
+Started to learn how to make gradients, could learn more.
+Started to learn about SVGs
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
 
@@ -112,8 +114,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+https://www.youtube.com/watch?v=Clv_YhMWoFk Helped me learn how to scale SVGs
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

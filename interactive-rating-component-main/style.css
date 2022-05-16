@@ -1,13 +1,12 @@
-/* #text text is left-oriented */
+/* REALIZED I WAS DOING EVERYTHING THE WRONG SIZE AWESOME */
 
 
-/* THIS HAS A GRADIENT WTH */
 body{
-    background:hsl(216, 12%, 8%);
+    background:hsl(220, 12%, 5%);
 }
 
 .text{
-    background:hsl(213, 19%, 18%);
+    background:linear-gradient(0deg,hsl(216, 12%, 8%),40%,hsl(213, 19%, 18%));
     height: 450px;
     max-width:580px;
     position: absolute;
@@ -73,6 +72,7 @@ button{
     text-decoration: none;
 }
 
+
 /* BUTTON CODE END */
 
 
@@ -84,7 +84,7 @@ h2{
 p{
     color:hsl(216, 12%, 54%);
     font-weight: 400;
-    font-size: 15 px;
+    font-size: 15px;
     margin-bottom:8px;
 }
 
@@ -96,6 +96,7 @@ p{
 
 /* buttons are grey circles, centered in body */
 
+/*SUBMIT BUTTON START*/
 #submit{
     width: 570px;
     border-radius: 80px;
@@ -105,6 +106,8 @@ p{
     position: inherit;
     bottom:5%;
     letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 15 px;
     
 
 }
@@ -134,23 +137,32 @@ p{
     text-decoration: none;
 
 }
+/*SUBMIT BUTTON END*/
 
+/*THANK YOU PAGE START*/
+#thank-you-image{
+  display:block;
+  margin:auto;
+  width:225px;
+  padding-top:20px;
+}
+
+h3{
+  text-align: center;
+  font-weight: 400;
+  color:hsl(25, 97%, 53%);
+  background:hsl(214, 20%, 23%);
+  padding:15px;
+}
+
+#thanks{
+  text-align: center;
+}
+
+#ty-text{
+  text-align: center;
+}
+/*THANK YOU PAGE END*/
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-
-
-    /* unvisited link
-a:link {
-    color:rgb(228, 227, 205)
-  }
-  
-  /*visited link*/
-  /* a:visited {
-    color:rgb(177, 34, 5)
-  } */
-  
-  /*mouse over link*/
-  /* a:hover {
-    color:rgb(142, 134, 89)
-  } */
