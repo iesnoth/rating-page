@@ -64,6 +64,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   I need to figure out how to store the integer data from when the button is pressed to carry over to the thank you html page. T.T
   I don't know what I'm doing.
 
+5/15/22
+  Gave all the buttons ids to hopefully fix the sizing problem (5 was the right size, but they were being squished as it went to one). Hopefully this will also give me more control on each individual button.
+  Finished the placement of the buttons using display:flex and justify-content. It still looks a bit wider than the original, but the text is all the right place, so I don't know what else to do about that.
+  I fixed all the numbers so they light up when hovered/clicked.
+
 ### Built with
 
 - VSCode
@@ -74,6 +79,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 5/7 I figured out on my own how to change the links' colors based on whether they'd been visited or not. <3
 
 5/13 I learned a little about position and how to experiment with css in the browser.
+
+5/15 Unlike with links, you can change the color of clicked buttons with the :focus state.
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

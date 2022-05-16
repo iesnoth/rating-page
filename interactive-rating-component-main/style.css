@@ -1,5 +1,7 @@
 /* #text text is left-oriented */
 
+
+/* THIS HAS A GRADIENT WTH */
 body{
     background:hsl(216, 12%, 8%);
 }
@@ -7,7 +9,7 @@ body{
 .text{
     background:hsl(213, 19%, 18%);
     height: 450px;
-    max-width:600px;
+    max-width:580px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -16,25 +18,63 @@ body{
     padding: 30px;
 }
 
+
 #rate-buttons{
-white-space:pre;
+  display: flex;
+  justify-content: space-between;
+  max-width: 566px;
+  margin-left:0;
+  margin-right:10px;
+  padding: 10px 0;
 }
 
-/* Number font is different for some reason */
 button{
   background:hsl(214, 20%, 23%);
-  padding-top:15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
   border-radius: 50%;
   border:none;
   color:hsl(216, 12%, 54%);
   font-weight: 400;
   font-size: 15 px;
-  margin-left: 3%;
-  margin-right: 2%;
+  /* margin-left: 3%;
+  margin-right: 2%; */
 }
+/* Gave them individual css objects bc when grouped together the width was being diminished for some reason
+(ie, 1 was narrower than 2, which was narrower than 3, etc.)*/
+/* NOT THE RIGHT FONT */
+
+
+/* BUTTON CODE BEGIN */
+#one, #two, #three, #four, #five{
+  padding-top:22px;
+  padding-bottom: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* unvisited link*/
+.number:link {
+    background-color:hsl(214, 20%, 23%);
+    color:hsl(216, 12%, 54%);
+    text-decoration: none;
+  }
+
+  
+/*visited link*/
+.number:focus {
+    background-color:hsl(216, 12%, 54%);
+    color:white;
+    text-decoration: none;
+  } 
+
+  /*mouse over link*/
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+    text-decoration: none;
+}
+
+/* BUTTON CODE END */
+
 
 h2{
     color:white;
@@ -45,6 +85,7 @@ p{
     color:hsl(216, 12%, 54%);
     font-weight: 400;
     font-size: 15 px;
+    margin-bottom:8px;
 }
 
 #star{
@@ -55,16 +96,15 @@ p{
 
 /* buttons are grey circles, centered in body */
 
-
-/*SUBMIT LINK CODE As of 5/7/22, this is not centered properly*/
 #submit{
-    width: 600px;
+    width: 570px;
     border-radius: 80px;
     text-align: center;
     padding-top:20px;
     padding-bottom:20px;
     position: inherit;
     bottom:5%;
+    letter-spacing: 5px;
     
 
 }
