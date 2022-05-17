@@ -7,23 +7,24 @@ body{
 
 .text{
     background:linear-gradient(0deg,hsl(216, 12%, 8%),40%,hsl(213, 19%, 18%));
-    height: 450px;
-    max-width:580px;
+    height: 320px;
+    max-width:330px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 25px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
 }
 
 
 #rate-buttons{
   display: flex;
   justify-content: space-between;
-  max-width: 566px;
-  margin-left:0;
-  margin-right:10px;
+  max-width: 330px;
   padding: 10px 0;
 }
 
@@ -44,10 +45,11 @@ button{
 
 /* BUTTON CODE BEGIN */
 #one, #two, #three, #four, #five{
-  padding-top:22px;
-  padding-bottom: 22px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top:16px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 15px;
 }
 
 /* unvisited link*/
@@ -79,6 +81,8 @@ button{
 h2{
     color:white;
     font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 p{
@@ -98,16 +102,16 @@ p{
 
 /*SUBMIT BUTTON START*/
 #submit{
-    width: 570px;
+    width: 330px;
     border-radius: 80px;
     text-align: center;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:13px;
+    padding-bottom:13px;
     position: inherit;
-    bottom:5%;
-    letter-spacing: 5px;
+    bottom:7%;
+    letter-spacing: 3px;
     font-weight: 400;
-    font-size: 15 px;
+    font-size: 15px;
     
 
 }
