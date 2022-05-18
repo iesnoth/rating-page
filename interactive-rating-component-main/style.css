@@ -8,7 +8,7 @@ body{
 /* MAIN DIV THAT HOLDS TEXT AND BUTTONS */
 .text{
     background:linear-gradient(0deg,hsl(216, 12%, 8%),40%,hsl(213, 19%, 18%));
-    height: 320px;
+    height: 350px;
     max-width:330px;
     position: absolute;
     left: 50%;
@@ -19,6 +19,7 @@ body{
     padding-top: 30px;
     padding-right: 40px;
     padding-bottom: 30px;
+    font-size: 15px;
 }
 
 
@@ -149,25 +150,32 @@ p{
   display:block;
   margin:auto;
   width:162px;
-  padding-top:20px;
+  padding-top:15px;
 }
 
 h3{
-  text-align: center;
   font-size: 15px;
   font-weight: 400;
   color:hsl(25, 97%, 53%);
   background:hsl(214, 20%, 23%);
-  padding:10px;
-  border-radius: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 80px;
+  width:141px;
+  text-align: center;
 }
 
 #thanks{
   text-align: center;
+  margin-top:50px;
 }
 
 #ty-text{
   text-align: center;
+  margin-left: -3px;
+  margin-right: -3px;
 }
 /*THANK YOU PAGE END*/
 
