@@ -74,6 +74,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   Fixed the size and spacing, I think the css is done now. All that's left is the javascript/making the buttons do things part. The part I know least about lol.
   Changed all the buttons and links to inputs, bc apparently that makes it easier to transfer data, which I have to do to display the right number in the thank you html.
   Tried to use local Storage, something is stopping it. Probably need to add an eventListener.
+  Added eventListener, I'm sure it's needed, but I'm not doing it right probably.
 
 
 ### Built with

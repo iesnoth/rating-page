@@ -14,11 +14,14 @@ use local storage?
 
   <!-- font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass&display=swap">
-  <script>function passvalues(){
+  <!--JAVASCRIPT-->
+  <script>
+  document.getElementsByTagName("input").addEventListener("click",
+  function passvalues(){
     var rating= document.getElementsByClassName("number").value;
     localStorage.setItem("ratingvalue",rating);
     return false;
-}</script>
+})</script>
   <!-- <script src="numbers.js"></script>  -->
 <style>
 body {
