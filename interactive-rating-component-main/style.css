@@ -1,6 +1,3 @@
-/* FIXED SIZE. STILL SPACING ISSUES ESP ON THANK YOU PAGE */
-
-
 body{
     background:hsl(220, 12%, 5%);
 }
@@ -24,6 +21,7 @@ body{
 
 
 #rate-buttons{
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   max-width: 330px;
@@ -42,7 +40,6 @@ button{
 }
 /* Gave them individual css objects bc when grouped together the width was being diminished for some reason
 (ie, 1 was narrower than 2, which was narrower than 3, etc.)*/
-/* NOT THE RIGHT FONT */
 
 
 /* BUTTON CODE BEGIN */
@@ -92,6 +89,7 @@ p{
     font-weight: 400;
     font-size: 15px;
     margin-bottom:8px;
+    line-height: 21px;
 }
 
 #star{
@@ -109,6 +107,7 @@ p{
     text-align: center;
     padding-top:13px;
     padding-bottom:13px;
+    margin-bottom: 5px;
     position: inherit;
     bottom:7%;
     letter-spacing: 3px;
@@ -163,13 +162,16 @@ h3{
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 80px;
-  width:141px;
-  text-align: center;
+  margin-top: 31px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11em;
 }
 
 #thanks{
   text-align: center;
-  margin-top:50px;
+  margin-top:35px;
 }
 
 #ty-text{

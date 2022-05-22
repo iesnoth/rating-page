@@ -70,6 +70,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   I fixed all the numbers so they light up when hovered/clicked.
   I realized the #text background had a gradient, so I fixed that up. P sure there's a color missing from the style guide.
 
+5/21/22
+  Fixed the size and spacing, I think the css is done now. All that's left is the javascript/making the buttons do things part. The part I know least about lol.  
+
 ### Built with
 
 - VSCode
@@ -84,6 +87,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 5/15 Unlike with links, you can change the color of clicked buttons with the :focus state.
 Started to learn how to make gradients, could learn more.
 Started to learn about SVGs
+
+5/21 Learned the line-height command for spacing
 
 
 To see how you can add code snippets, see below:
