@@ -28,7 +28,7 @@ body{
   padding: 10px 0;
 }
 
-button{
+.number{
   background:hsl(214, 20%, 23%);
   border-radius: 50%;
   border:none;
@@ -113,15 +113,19 @@ p{
     letter-spacing: 3px;
     font-weight: 400;
     font-size: 15px;
+    background-color:hsl(25, 97%, 53%);
+    color:white;
+    text-decoration: none;
+    border:none;
     
 
 }
   /* unvisited link*/
-#submit:link {
+/* #submit:link {
     background-color:hsl(25, 97%, 53%);
     color:white;
     text-decoration: none;
-  }
+  } */
 
   
 /*visited link*/

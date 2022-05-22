@@ -1,3 +1,9 @@
+<!--Button research:
+input tag has a button option. shown thusly: <input type="button">
+use local storage?
+<script>tag for use in html
+  might have to change submit button to input-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +13,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <!-- font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass&display=swap">
+  <script>function passvalues(){
+    var rating= document.getElementsByClassName("number").value;
+    localStorage.setItem("ratingvalue",rating);
+    return false;
+}</script>
+  <!-- <script src="numbers.js"></script>  -->
 <style>
 body {
   font-family: 'Overpass', sans-serif;
@@ -35,16 +47,18 @@ body {
 
   <!--I need to figure out how to turn these numbers into buttons, or links.
   Use js to log the number chosen. May need to use parseInt-->
-  
+    <form action="interactive-rating-component-main/thank-you.html"></form>
 <div id="rate-buttons">
- <button id="one" class="number">1</button><button id="two" class="number">2</button><button id="three" class="number">3</button><button id="four" class="number">4</button><button id="five" class="number">5</button>
+
+  <input type="button" id="one" class="number" value="1"><input type="button" id="two" class="number" value="2"><input type="button" id="three" class="number" value="3"><input type="button" id="four" class="number" value="4"><input type="button" id="five" class="number" value="5">
 </div>
   <br>
  <!-- Submit link -->
-  <a id="submit" href="thank-you.html">SUBMIT</a>
+  <input id="submit" type="button" value="SUBMIT" onclick="passvalues()";>
+
 
 </div>
-
+</form>
   <!-- Rating state end -->
 
   

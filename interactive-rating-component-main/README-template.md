@@ -71,7 +71,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   I realized the #text background had a gradient, so I fixed that up. P sure there's a color missing from the style guide.
 
 5/21/22
-  Fixed the size and spacing, I think the css is done now. All that's left is the javascript/making the buttons do things part. The part I know least about lol.  
+  Fixed the size and spacing, I think the css is done now. All that's left is the javascript/making the buttons do things part. The part I know least about lol.
+  Changed all the buttons and links to inputs, bc apparently that makes it easier to transfer data, which I have to do to display the right number in the thank you html.
+  Tried to use local Storage, something is stopping it. Probably need to add an eventListener.
+
 
 ### Built with
 
@@ -89,6 +92,7 @@ Started to learn how to make gradients, could learn more.
 Started to learn about SVGs
 
 5/21 Learned the line-height command for spacing
+Input tag in html
 
 
 To see how you can add code snippets, see below:
@@ -120,6 +124,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 https://www.youtube.com/watch?v=Clv_YhMWoFk Helped me learn how to scale SVGs
+https://www.youtube.com/watch?v=vOe0ysNsNCo Learned a bit about JS and local storage.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
