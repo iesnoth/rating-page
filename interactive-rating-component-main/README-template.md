@@ -76,6 +76,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   Tried to use local Storage, something is stopping it. Probably need to add an eventListener.
   Added eventListener, I'm sure it's needed, but I'm not doing it right probably.
 
+6/3/22
+Simplified the submit button to simply switch pages. I still don't understand local Storage. It keeps giving me an error message that my functions are not defined. Don't know if it's a problem with the code, my computer, or both.
 
 ### Built with
 
