@@ -10,20 +10,17 @@ number stored from number button shows up on next page-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <!-- font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass&display=swap">
-  <!--JAVASCRIPT-->
-  <!-- <script>
-  // document.getElementsByTagName("input").addEventListener("click",
-  function passvalues(){
-    var rating= document.getElementsByClassName("value").value;
+  <script>
+    function passvalues(){
+    var rating= document.getElementsByTagName("input").value;
     localStorage.setItem("ratingvalue",rating);
     console.log(rating)
     return false;
-}</script> -->
-  <script src="numbers.js"></script> 
-<style>
+}
+</script>
+  <!-- font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass&display=swap">
+ <style>
 body {
   font-family: 'Overpass', sans-serif;
 }
