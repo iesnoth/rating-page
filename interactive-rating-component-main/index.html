@@ -1,8 +1,7 @@
-<!--Button research:
-input tag has a button option. shown thusly: <input type="button">
-use local storage?
-<script>tag for use in html
-  might have to change submit button to input-->
+<!--FUNCTION OF SITE:
+click on a number button to store the number
+click on submit to go to the next page
+number stored from number button shows up on next page-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,14 +14,15 @@ use local storage?
   <!-- font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass&display=swap">
   <!--JAVASCRIPT-->
-  <script>
-  document.getElementsByTagName("input").addEventListener("click",
+  <!-- <script>
+  // document.getElementsByTagName("input").addEventListener("click",
   function passvalues(){
-    var rating= document.getElementsByClassName("number").value;
+    var rating= document.getElementsByClassName("value").value;
     localStorage.setItem("ratingvalue",rating);
+    console.log(rating)
     return false;
-})</script>
-  <!-- <script src="numbers.js"></script>  -->
+}</script> -->
+  <script src="numbers.js"></script> 
 <style>
 body {
   font-family: 'Overpass', sans-serif;
@@ -48,20 +48,18 @@ body {
   <p>Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
 
-  <!--I need to figure out how to turn these numbers into buttons, or links.
-  Use js to log the number chosen. May need to use parseInt-->
-    <form action="interactive-rating-component-main/thank-you.html"></form>
+  <!--BUTTONS-->
 <div id="rate-buttons">
 
-  <input type="button" id="one" class="number" value="1"><input type="button" id="two" class="number" value="2"><input type="button" id="three" class="number" value="3"><input type="button" id="four" class="number" value="4"><input type="button" id="five" class="number" value="5">
+  <input type="button" id="one" class="number" value="1"  onclick="passvalues()";><input type="button" id="two" class="number" value="2" onclick="passvalues()";><input type="button" id="three" class="number" value="3" onclick="passvalues()";><input type="button" id="four" class="number" value="4" onclick="passvalues()";><input type="button" id="five" class="number" value="5" onclick="passvalues()";>
 </div>
   <br>
  <!-- Submit link -->
-  <input id="submit" type="button" value="SUBMIT" onclick="passvalues()";>
+  <input id="submit" type="button" value="SUBMIT" onclick="change_page()";>
 
 
 </div>
-</form>
+
   <!-- Rating state end -->
 
   
